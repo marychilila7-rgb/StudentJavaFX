@@ -85,7 +85,7 @@ public class LodgeBillingApp extends Application {
         loginBtn.getStyleClass().add("primary-button");
         loginBtn.setMaxWidth(Double.MAX_VALUE);
 
-        Label hint = new Label("Practice login: admin / 1234");
+        Label hint = new Label("Practice login: Group90 / G1234");
         hint.getStyleClass().add("muted");
 
         Runnable doLogin = () -> {
